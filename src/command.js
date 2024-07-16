@@ -18,7 +18,7 @@ yargs(hideBin(process.argv))
   .option("tags", {
     alias: "t",
     type: "string",
-    description: "tag of note",
+    description: "tag a note",
   })
   .command(
     "all",
